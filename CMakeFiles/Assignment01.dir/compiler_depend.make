@@ -1046,6 +1046,7 @@ CMakeFiles/Assignment01.dir/src/main.cpp.o: src/main.cpp \
   /usr/include/linux/falloc.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  src/bunny.h \
   /usr/include/glm/gtx/string_cast.hpp \
   /usr/include/glm/gtc/type_precision.hpp \
   /usr/include/glm/gtc/type_precision.inl \
@@ -2301,6 +2302,8 @@ depends/imgui/imgui.cpp:
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
+
+src/bunny.h:
 
 /usr/include/glm/ext/matrix_float4x3_precision.hpp:
 

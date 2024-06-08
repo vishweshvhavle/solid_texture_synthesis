@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vish/solid_texture_synthesis
+CMAKE_SOURCE_DIR = /home/vish/Solid-Texture-Synthesis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vish/solid_texture_synthesis
+CMAKE_BINARY_DIR = /home/vish/Solid-Texture-Synthesis
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vish/solid_texture_synthesis/CMakeFiles /home/vish/solid_texture_synthesis//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vish/Solid-Texture-Synthesis/CMakeFiles /home/vish/Solid-Texture-Synthesis//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vish/solid_texture_synthesis/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vish/Solid-Texture-Synthesis/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment01
+# Target rules for targets named Project
 
 # Build rule for target.
-Assignment01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Assignment01
-.PHONY : Assignment01
+Project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project
+.PHONY : Project
 
 # fast build rule for target.
-Assignment01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/build
-.PHONY : Assignment01/fast
+Project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/build
+.PHONY : Project/fast
 
 depends/imgui/imgui.o: depends/imgui/imgui.cpp.o
 .PHONY : depends/imgui/imgui.o
 
 # target to build an object file
 depends/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui.cpp.o
 .PHONY : depends/imgui/imgui.cpp.o
 
 depends/imgui/imgui.i: depends/imgui/imgui.cpp.i
@@ -142,7 +142,7 @@ depends/imgui/imgui.i: depends/imgui/imgui.cpp.i
 
 # target to preprocess a source file
 depends/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui.cpp.i
 .PHONY : depends/imgui/imgui.cpp.i
 
 depends/imgui/imgui.s: depends/imgui/imgui.cpp.s
@@ -150,7 +150,7 @@ depends/imgui/imgui.s: depends/imgui/imgui.cpp.s
 
 # target to generate assembly for a file
 depends/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui.cpp.s
 .PHONY : depends/imgui/imgui.cpp.s
 
 depends/imgui/imgui_demo.o: depends/imgui/imgui_demo.cpp.o
@@ -158,7 +158,7 @@ depends/imgui/imgui_demo.o: depends/imgui/imgui_demo.cpp.o
 
 # target to build an object file
 depends/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_demo.cpp.o
 .PHONY : depends/imgui/imgui_demo.cpp.o
 
 depends/imgui/imgui_demo.i: depends/imgui/imgui_demo.cpp.i
@@ -166,7 +166,7 @@ depends/imgui/imgui_demo.i: depends/imgui/imgui_demo.cpp.i
 
 # target to preprocess a source file
 depends/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_demo.cpp.i
 .PHONY : depends/imgui/imgui_demo.cpp.i
 
 depends/imgui/imgui_demo.s: depends/imgui/imgui_demo.cpp.s
@@ -174,7 +174,7 @@ depends/imgui/imgui_demo.s: depends/imgui/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 depends/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_demo.cpp.s
 .PHONY : depends/imgui/imgui_demo.cpp.s
 
 depends/imgui/imgui_draw.o: depends/imgui/imgui_draw.cpp.o
@@ -182,7 +182,7 @@ depends/imgui/imgui_draw.o: depends/imgui/imgui_draw.cpp.o
 
 # target to build an object file
 depends/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_draw.cpp.o
 .PHONY : depends/imgui/imgui_draw.cpp.o
 
 depends/imgui/imgui_draw.i: depends/imgui/imgui_draw.cpp.i
@@ -190,7 +190,7 @@ depends/imgui/imgui_draw.i: depends/imgui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 depends/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_draw.cpp.i
 .PHONY : depends/imgui/imgui_draw.cpp.i
 
 depends/imgui/imgui_draw.s: depends/imgui/imgui_draw.cpp.s
@@ -198,7 +198,7 @@ depends/imgui/imgui_draw.s: depends/imgui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 depends/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_draw.cpp.s
 .PHONY : depends/imgui/imgui_draw.cpp.s
 
 depends/imgui/imgui_impl_glfw.o: depends/imgui/imgui_impl_glfw.cpp.o
@@ -206,7 +206,7 @@ depends/imgui/imgui_impl_glfw.o: depends/imgui/imgui_impl_glfw.cpp.o
 
 # target to build an object file
 depends/imgui/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_impl_glfw.cpp.o
 .PHONY : depends/imgui/imgui_impl_glfw.cpp.o
 
 depends/imgui/imgui_impl_glfw.i: depends/imgui/imgui_impl_glfw.cpp.i
@@ -214,7 +214,7 @@ depends/imgui/imgui_impl_glfw.i: depends/imgui/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 depends/imgui/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_impl_glfw.cpp.i
 .PHONY : depends/imgui/imgui_impl_glfw.cpp.i
 
 depends/imgui/imgui_impl_glfw.s: depends/imgui/imgui_impl_glfw.cpp.s
@@ -222,7 +222,7 @@ depends/imgui/imgui_impl_glfw.s: depends/imgui/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 depends/imgui/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_impl_glfw.cpp.s
 .PHONY : depends/imgui/imgui_impl_glfw.cpp.s
 
 depends/imgui/imgui_impl_opengl3.o: depends/imgui/imgui_impl_opengl3.cpp.o
@@ -230,7 +230,7 @@ depends/imgui/imgui_impl_opengl3.o: depends/imgui/imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 depends/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_impl_opengl3.cpp.o
 .PHONY : depends/imgui/imgui_impl_opengl3.cpp.o
 
 depends/imgui/imgui_impl_opengl3.i: depends/imgui/imgui_impl_opengl3.cpp.i
@@ -238,7 +238,7 @@ depends/imgui/imgui_impl_opengl3.i: depends/imgui/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 depends/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_impl_opengl3.cpp.i
 .PHONY : depends/imgui/imgui_impl_opengl3.cpp.i
 
 depends/imgui/imgui_impl_opengl3.s: depends/imgui/imgui_impl_opengl3.cpp.s
@@ -246,7 +246,7 @@ depends/imgui/imgui_impl_opengl3.s: depends/imgui/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 depends/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_impl_opengl3.cpp.s
 .PHONY : depends/imgui/imgui_impl_opengl3.cpp.s
 
 depends/imgui/imgui_widgets.o: depends/imgui/imgui_widgets.cpp.o
@@ -254,7 +254,7 @@ depends/imgui/imgui_widgets.o: depends/imgui/imgui_widgets.cpp.o
 
 # target to build an object file
 depends/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_widgets.cpp.o
 .PHONY : depends/imgui/imgui_widgets.cpp.o
 
 depends/imgui/imgui_widgets.i: depends/imgui/imgui_widgets.cpp.i
@@ -262,7 +262,7 @@ depends/imgui/imgui_widgets.i: depends/imgui/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 depends/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_widgets.cpp.i
 .PHONY : depends/imgui/imgui_widgets.cpp.i
 
 depends/imgui/imgui_widgets.s: depends/imgui/imgui_widgets.cpp.s
@@ -270,7 +270,7 @@ depends/imgui/imgui_widgets.s: depends/imgui/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 depends/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/depends/imgui/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/depends/imgui/imgui_widgets.cpp.s
 .PHONY : depends/imgui/imgui_widgets.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -278,7 +278,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -286,7 +286,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -294,7 +294,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/utils.o: src/utils.cpp.o
@@ -302,7 +302,7 @@ src/utils.o: src/utils.cpp.o
 
 # target to build an object file
 src/utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/src/utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -310,7 +310,7 @@ src/utils.i: src/utils.cpp.i
 
 # target to preprocess a source file
 src/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/src/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -318,7 +318,7 @@ src/utils.s: src/utils.cpp.s
 
 # target to generate assembly for a file
 src/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment01.dir/build.make CMakeFiles/Assignment01.dir/src/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 # Help Target
@@ -329,7 +329,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Assignment01"
+	@echo "... Project"
 	@echo "... depends/imgui/imgui.o"
 	@echo "... depends/imgui/imgui.i"
 	@echo "... depends/imgui/imgui.s"

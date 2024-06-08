@@ -88,12 +88,12 @@ typedef struct VERTEX_DATA {
 
 VertexData* parseFrom(const char * fileName);
 
-typedef struct BUNNYDATA{
+typedef struct OBJECTDATA{
   int totalTriangles, totalVertices;
   int vertSize, dataSize, bufferSize;
   int colorPointer;
   GLfloat *data;
   GLfloat *vertices;
-} BunnyData;
+} ObjectData;
 
-BunnyData loadBunny();
+ObjectData loadObject();

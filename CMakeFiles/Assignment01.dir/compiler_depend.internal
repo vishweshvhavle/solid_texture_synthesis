@@ -1053,6 +1053,7 @@ CMakeFiles/Assignment01.dir/src/main.cpp.o
  /usr/include/linux/falloc.h
  /usr/include/x86_64-linux-gnu/bits/stat.h
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h
+ /home/vish/solid_texture_synthesis/src/bunny.h
  /usr/include/glm/gtx/string_cast.hpp
  /usr/include/glm/gtc/type_precision.hpp
  /usr/include/glm/gtc/type_precision.inl

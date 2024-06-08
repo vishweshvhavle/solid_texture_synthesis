@@ -1,4 +1,4 @@
-# Install script for directory: /home/vish/solid_texture_synthesis
+# Install script for directory: /home/vish/Solid-Texture-Synthesis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vish/solid_texture_synthesis/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vish/Solid-Texture-Synthesis/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
